@@ -1,0 +1,154 @@
+body{
+    margin: 0%;
+
+}
+
+.navbar{
+    display:flex;
+    gap: 200px;
+    list-style: none;
+}
+#Login{
+    border-radius: 100px;
+margin-top: 50px;
+}
+.home{
+    color: red;
+}
+.whole{
+    display: flex;
+    gap: 380px;
+}
+.statement{
+    font-size: x-large;
+}
+.text{
+    font-size: large;
+}
+.button{
+border-radius: 100px;
+padding-right: 100px;
+font-size: large;
+
+}
+.explore{
+    background-color: red;
+    color: white;
+    border-radius: 100px;
+    font-size: large;
+}
+.words{
+    display: flex;
+    gap: 50px;
+}
+.picture{
+    gap: 280px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 720px){
+    .navbar{
+        flex-wrap: wrap;
+        gap: 0px;
+        list-style: none;
+        font-size: x-large;
+    }
+    #Login{
+        flex-wrap: wrap;
+    
+    }
+    .home{
+        color: red;
+        flex-wrap: wrap;
+    }
+    .whole{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .statement{
+        font-size: x-large;
+        flex-wrap: wrap;
+    }
+    .text{
+        font-size: large;
+        flex-wrap: wrap;
+    }
+    .button{
+    font-size: large;
+    flex-wrap: wrap;
+    
+    }
+    .explore{
+        background-color: red;
+        color: white;
+        font-size: large;
+        flex-wrap: wrap;
+    }
+    .words{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .picture{
+        align-items: center;
+        flex-wrap: wrap;
+        width:390px;
+        gap: 60px;
+    
+}
+
+}
+
+@media screen and (min-width: 720px) and (max-width: 1280px){
+
+    .navbar{
+        flex-wrap: wrap;
+        gap: 0px;
+        list-style: none;
+        font-size: x-large;
+    }
+    #Login{
+        flex-wrap: wrap;
+        display: flex;
+    
+    }
+    .home{
+        color: red;
+        flex-wrap: wrap;
+    }
+    .whole{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .statement{
+        font-size: x-large;
+        flex-wrap: wrap;
+    }
+    .text{
+        font-size: large;
+        flex-wrap: wrap;
+    }
+    .button{
+    font-size: large;
+    flex-wrap: wrap;
+    
+    }
+    .explore{
+        background-color: red;
+        color: white;
+        font-size: large;
+        flex-wrap: wrap;
+    }
+    .words{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .picture{
+        align-items: center;
+        flex-wrap: wrap;
+        size: 100px;
+    
+}
+}

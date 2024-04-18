@@ -5,6 +5,7 @@ body{
 
 
 }
+
    
 #skill{
     display: flex;
@@ -22,7 +23,7 @@ body{
     gap: 150px;
     padding-left: 240px;
 }
-#button{
+#login{
     border-radius: 20px;
     width: 90px;
     height: 40px;
@@ -62,30 +63,35 @@ color: red;
     width:600px;
     height: 500px;
 }
-.button{
-border-radius: 100px;
-padding-right: 100px;
-font-size: large;
-height: 40px;
-margin-right:-13%;
+.buttons{
+    display: flex;
+}
+#button{
+border-radius: 30px;
+width: 80%;
+height: 34px;
+margin-right: -32%;
+font-size:medium;
+
 }
 #home{
  color: red;
 }
 
-.explore{
+#explore{
     background-color: red;
     color: white;
     border-radius: 100px;
     font-size: large;
     height: 40px;
-    width: 200px;
+    width: 150px;
 }
 .words{
     display: flex;
     gap: 90px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
     color:#95abc6 ;
+    padding-top: 20px;
 }
 .footer{
     gap: 80px;
@@ -97,7 +103,7 @@ margin-right:-13%;
 
 }
 
-@media screen and (min-width: 360px) and (max-width: 667px){
+@media screen and (min-width: 260px) and (max-width: 740px){
     #skill{
         flex-wrap: wrap;
         width: 25px;
@@ -109,11 +115,17 @@ margin-right:-13%;
         color: red;
         flex-wrap: wrap;
     }
-    .navbar{
-        list-style: none;
-        flex-wrap: wrap;
+    #image{
+        width:350px;
+        height: 350px;
     }
-    #button{
+    .navbar{
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 50px;
+        padding-left: 40px;
+    }
+    #login{
         border-radius: 30px;
         flex-wrap: wrap;
     }
@@ -136,26 +148,39 @@ margin-right:-13%;
         flex-wrap: wrap;
     }
     .button{
-    font-size: large;
-    flex-wrap: wrap;
-    
-    }
-    .explore{
-        background-color: red;
-        color: white;
-        font-size: large;
-        flex-wrap: wrap;
-    }
-    .words{
         display: flex;
-        flex-wrap: wrap;
     }
+    #button{
+        border-radius: 30px;
+        width: 80%;
+        height: 34px;
+        margin-right: -32%;
+        font-size:medium;
+        
+        }
+        #home{
+         color: red;
+        }
+        
+        #explore{
+            background-color: red;
+            color: white;
+            border-radius: 100px;
+            font-size: large;
+            height: 40px;
+            width: 150px;
+        }
+        .words{
+            display: flex;
+            gap: 90px;
+            padding-bottom: 10px;
+            color:#95abc6 ;
+            padding-top: 20px;
+        }
     .footer{
-        align-items: center;
         flex-wrap: wrap;
-        width:390px;
-        gap: 60px;
-        width: 60px;
+    width: 100px;
+    align-items: center;
     
         
     
@@ -163,7 +188,7 @@ margin-right:-13%;
 
 }
 
-@media screen and (min-width: 667px) and (max-width: 1280px){
+@media screen and (min-width: 740px) and (max-width: 1024px){
 
     #skill{
         flex-wrap: wrap;
@@ -176,11 +201,17 @@ margin-right:-13%;
         color: red;
         flex-wrap: wrap;
     }
-    .navbar{
-        list-style: none;
-        flex-wrap: wrap;
+    #image{
+        width:350px;
+        height: 350px;
     }
-    #button{
+    .navbar{
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 50px;
+        padding-left: 40px;
+    }
+    #login{
         border-radius: 30px;
         flex-wrap: wrap;
     }
@@ -204,25 +235,126 @@ margin-right:-13%;
         flex-wrap: wrap;
     }
     .button{
-    font-size: large;
-    flex-wrap: wrap;
+        display: flex;
+    }
+    #button{
+        border-radius: 30px;
+        width: 80%;
+        height: 34px;
+        margin-right: -32%;
+        font-size:medium;
+        
+        }
+        #home{
+         color: red;
+        }
+        
+        #explore{
+            background-color: red;
+            color: white;
+            border-radius: 100px;
+            font-size: large;
+            height: 40px;
+            width: 150px;
+        }
+        .words{
+            display: flex;
+            gap: 90px;
+            padding-bottom: 10px;
+            color:#95abc6 ;
+            padding-top: 20px;
+        }
+    .footer{
+        align-items: center;
+       flex-wrap: wrap;
+        width: 100px;
+      
+    
+}
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1300px){
+
+    #skill{
+        flex-wrap: wrap;
+        width: 25px;
+    }
+    .all{
+        flex-wrap: wrap;
+    }
+    .hero{
+        color: red;
+        flex-wrap: wrap;
+    }
+    #image{
+        width:350px;
+        height: 350px;
+    }
+    .navbar{
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 50px;
+        padding-left: 40px;
+    }
+    #login{
+        border-radius: 30px;
+        flex-wrap: wrap;
+    }
+    #join{
+        border-radius: 30px;
+        flex-wrap: wrap;
+        margin-top: 13px;
+        color: red;
+    }
+    .whole{
+        gap: none;
+        flex-wrap: wrap;
     
     }
-    .explore{
-        background-color: red;
-        color: white;
+    .statement{
+        font-size: x-large;
+        flex-wrap: wrap;
+        font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .text{
         font-size: large;
         flex-wrap: wrap;
     }
-    .words{
+    .button{
         display: flex;
-        flex-wrap: wrap;
     }
+    #button{
+        border-radius: 30px;
+        width: 80%;
+        height: 34px;
+        margin-right: -32%;
+        font-size:medium;
+        
+        }
+        #home{
+         color: red;
+        }
+        
+        #explore{
+            background-color: red;
+            color: white;
+            border-radius: 100px;
+            font-size: large;
+            height: 40px;
+            width: 150px;
+        }
+        .words{
+            display: flex;
+            gap: 90px;
+            color:#95abc6 ;
+           
+        }
     .footer{
         align-items: center;
-        flex-wrap: wrap;
-        width: 10px;
-        width: 60px;
+        display: flex;
+        width: 50px;
+       
     
 }
 }
